@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>edu.yuwen.test</groupId>
+    <artifactId>test-util</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>junit</artifactId>
+  <packaging>pom</packaging>
+  <description>Junit相关的测试框架，包括Junit4和5，以及和Spring集成等</description>
+  <modules>
+      <module>junit4-basic</module>
+      <module>junit5-basic</module>
+  </modules>
+</project>
