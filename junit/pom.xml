@@ -11,5 +11,6 @@
   <modules>
       <module>junit4-basic</module>
       <module>junit5-basic</module>
+      <module>junit5-springboot</module>
   </modules>
 </project>
